@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>finswet-tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css" integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-robotocondensed">
     <!-- =============Navbar start here============ -->
+    <nav class="bg-navbg py-3">
+        <div class="max-w-container mx-auto">
+            <div class="flex gap-x-16 items-center">
+                <div class="w-[198px] relative after:absolute after:content-[''] after:h-20 after:w-[3px] after:opacity-10 after:bg-white after:right-0 after:-top-6">
+                    <img src="./images/nav_logo.png" alt="not found">
+                </div>
+                <div class="flex justify-between w-[1082px]">
+                    <ul class="flex items-center gap-x-12">
+                        <li>
+                            <a href="#" class="text-white text-base uppercase font-normal opacity-90 leading-normal hover:opacity-1">home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-base uppercase opacity-90 font-normal leading-normal hover:opacity-">about us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-base uppercase opacity-90 font-normal leading-normal hover:opacity-">sermon</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-base uppercase opacity-90 font-normal leading-normal hover:opacity-">blog</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-[#1C1D28] text-base uppercase font-normal leading-4 bg-[#FFD2A4] py-5 px-12 rounded-xl border-[2px] border-solid border-[#FFD2A4] transition-all duration-[.3s] ease-linear hover:bg-transparent hover:text-white ">contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!-- =============Navbar end here============ -->
 
     <!-- =============Navbar start here============ -->
