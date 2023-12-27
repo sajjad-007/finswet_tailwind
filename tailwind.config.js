@@ -7,11 +7,15 @@ tailwind.config = {
         colors: {
             primary: '#161722',
             navbg: '#0D0D0D',
+            secondary:'#FFD2A4',
         },
         fontFamily: {
             'robotocondensed': "Roboto Condensed, sans-serif",
-            
-        }
+        },
+         backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'banner_img': "url('images/banner_img.jpg')",
+      }
       }
     }
   }
