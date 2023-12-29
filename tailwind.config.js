@@ -4,6 +4,15 @@ tailwind.config = {
         spacing: {
             'container': '1280px',
         },
+        screens: {
+          'xs': '400px',
+          'sm': '576px',
+          'md': '768px',
+          'lg': '992px',
+          'xl': '1200px',
+          '2xl': '1400px',
+          '3xl': '1600px',
+        },
         colors: {
             primary: '#161722',
             navbg: '#0D0D0D',
